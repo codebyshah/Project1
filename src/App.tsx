@@ -1,15 +1,23 @@
 import './App.css'
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Service from './components/Service';
+import Portfolio from './components/Portfolio';
 
 function App() {
-
   return (
     <>
-      <h1 className='text-green-500'>
-        Shahsabar</h1>
-      <h1 className='text-stone-500'>
-        Mano Billi</h1>
+      <Navbar />
+      <Hero />
+      <About />
+      <Service />
+      <Portfolio />
+
+
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
